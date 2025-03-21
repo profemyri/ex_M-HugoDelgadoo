@@ -13,6 +13,7 @@ img{
    height: 200px;
    width: 200px;
    display: block;
+   align-items: center;
 }
 body {
    background-color: #faf3e0;
