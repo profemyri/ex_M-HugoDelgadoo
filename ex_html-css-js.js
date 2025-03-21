@@ -52,7 +52,7 @@ document.getElementById("modoOscuro").onclick = function(){
 };
 
 document.getElementById("modoClaro").onclick = function(){
-    document.body.classList.toggle("claro");
+    document.body.style.backgroundColor = "black";
 };
 
 function botonPedido(){
