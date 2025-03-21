@@ -10,6 +10,7 @@
     <img src="pescado_frito.jpg" alt="Bandeja pescado frito">
     <form action="#">
         <fieldset>
+            <legend>Datos Cliente</legend>
         <label>Nombre:</label>
         <input type="text" id="nombre" required>
         <label>Apellidos:</label>
@@ -23,20 +24,22 @@
         <label >Hora aproximada entrega:</label>
         <input type="time" id="hora">
         </fieldset>
+
         <fieldset>
+            <legend>Pedido pescado</legend>
         <label>Tipo de pescado:</label>
         <select id="pescado">
             <option value="Adobo">Adobo</option>
             <option value="Boquerones">Boquerones</option>
             <option value="Calamares">Calamares</option>
         </select>        
-        </fieldset>
-        <fieldset>
         <label>Numero de raciones</label>
         <input type="number" id="raciones" min="1" max="5"  required>
         <label></label>
-        </fieldset>
+    </fieldset>
+
         <fieldset>
+            <legend>Acompañamientos</legend>
         <label >Acompañamientos</label>
         <label>Patatas Fritas</label>
         <input type="checkbox" id="patatas">
@@ -45,16 +48,19 @@
         <label>Botella de Manzanilla</label>
         <input type="checkbox" id="manzanilla">
         </fieldset>
+
         <fieldset>
-        <label>Metodo de pago</label>
-        <label>Efectivo</label>
-        <input type="radio" id="efectivo">
-        <label>Tarjeta</label>
-        <input type="radio" id="tarjeta">
-        <label>PayPal</label>
-        <input type="radio" id="paypal">
+            <legend>Pago</legend>
+            <label>Método de pago:</label>
+            <select id="pago" required>
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta">Tarjeta</option>
+                <option value="PayPal">PayPal</option>
+            </select>
         </fieldset>
+
         <fieldset>
+            <legend>Instrucciones adicionales</legend>
         <label>Instrucciones adicionales</label>
         <textarea  id="instrucciones"></textarea>
         </fieldset>
