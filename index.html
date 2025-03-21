@@ -9,6 +9,7 @@
     <h1>¡¡Pide aqui tu pescadito!!</h1>
     <img src="pescado_frito.jpg" alt="Bandeja pescado frito">
     <form action="#">
+        <fieldset>
         <label>Nombre:</label>
         <input type="text" id="nombre" required>
         <label>Apellidos:</label>
@@ -21,16 +22,21 @@
         <input type="tel" id="telefono"minlength="9" maxlength="9">
         <label >Hora aproximada entrega:</label>
         <input type="time" id="hora">
-    
-
+        </fieldset>
+        <fieldset>
         <label>Tipo de pescado:</label>
+        <select id="pescado">
+            <option value="Adobo">Adobo</option>
+            <option value="Boquerones">Boquerones</option>
+            <option value="Calamares">Calamares</option>
+        </select>
         <label>Calamares</label>
         <input type="radio" id="Calamares" required>
         <label>Adobo</label>
         <input type="radio" id="Adobo" required>
         <label>Boquerones</label>
         <input type="radio" id="Boquerones" required>
-
+        </fieldset>
         <label>Numero de raciones</label>
         <input type="number" id="raciones" min="1" max="5"  required>
         <label></label>
