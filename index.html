@@ -28,17 +28,11 @@
         <fieldset>
             <legend>Pedido pescado</legend>
         <label>Tipo de pescado:</label>
-        <legend>Pedido pescado</legend>
-        <label>Tipo de pescado:</label><br>
-        <input type="radio" id="adobo" name="pescado" value="Adobo">
-        <label for="adobo">Adobo</label>
-        <br>
-        <input type="radio" id="boquerones" name="pescado" value="Boquerones">
-        <label for="boquerones">Boquerones</label>
-        <br>
-        <input type="radio" id="calamares" name="pescado" value="Calamares">
-        <label for="calamares">Calamares</label>
-        <br>
+        <select id="pescado">
+            <option value="Adobo">Adobo</option>
+            <option value="Boquerones">Boquerones</option>
+            <option value="Calamares">Calamares</option>
+        </select>        
         <label>Numero de raciones</label>
         <input type="number" id="raciones" min="1" max="5"  required>
         <label></label>
