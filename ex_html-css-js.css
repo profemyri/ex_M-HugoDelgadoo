@@ -4,7 +4,14 @@
    padding: 10px;
    border-radius: 10px;
 }
+input,select,textarea{
+   border: #eaeaea;
 
+}
+img{
+   max-width: 100px;
+   display: block;
+}
 body {
    background-color: #faf3e0;
    color: #2c3e50;
