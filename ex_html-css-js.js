@@ -10,7 +10,7 @@ function validar(){
     return false;
 }
     return true
-}
+};
 
 function calcularPrecio(){
     let precioo = 0;
@@ -40,19 +40,18 @@ function calcularPrecio(){
 
     precioFinal = precioo + acompaña + parseInt(raciones.value);
     precioF.textContent(precioFinal);
-}
+};
 
 function contador(){
     document.getElementById("contador").textContent = this.value.length;
-}
+};
 
 document.getElementById("modoOscuro").onclick = function(){
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-}
+  document.body.classList.toggle("oscuro");
+};
 
 document.getElementById("modoClaro").onclick = function(){
     document.body.style.backgroundColor = "white";
     document.body.style.color = "black";
-}
+};
 
