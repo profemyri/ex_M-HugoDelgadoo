@@ -20,8 +20,17 @@ body {
 }
 
 h1 {
+   font-size: 32px;
    color: #0077b6;
    
+}
+h2{
+   font-size: 24px;
+   color:  #f4a261;
+}
+
+textarea::placeholder{
+   color: #f4a261;
 }
 
 form {
