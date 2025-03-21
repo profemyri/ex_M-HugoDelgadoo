@@ -46,5 +46,13 @@ function contador(){
     document.getElementById("contador").textContent = this.value.length;
 }
 
+document.getElementById("modoOscuro").onclick = function(){
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+}
 
+document.getElementById("modoClaro").onclick = function(){
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+}
 
