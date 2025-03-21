@@ -42,9 +42,10 @@ function calcularPrecio(){
     precioF.textContent(precioFinal);
 };
 
-function contador(){
-    document.getElementById("contador").textContent = this.value.length;
-};
+    document.getElementById("contador").oninput = function(){
+        document.getElementById("instrucciones").textContent = this.value.length;   
+    };
+
 
 document.getElementById("modoOscuro").onclick = function(){
   document.body.classList.toggle("oscuro");
