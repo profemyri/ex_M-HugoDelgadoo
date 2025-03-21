@@ -38,7 +38,7 @@ function calcularPrecio(){
 
     let precioFinal = 0;
 
-    precioFinal = precioo + acompaña + parseInt(raciones.value);
+    precioFinal = precioo + acompaña * parseInt(raciones.value);
     precioF.textContent(precioFinal);
 };
 
@@ -53,4 +53,9 @@ document.getElementById("modoOscuro").onclick = function(){
 document.getElementById("modoClaro").onclick = function(){
     document.body.classList.toggle("claro");
 };
+
+function botonPedido(){
+    document.getElementById("precio").mouseOver
+}
+
 
