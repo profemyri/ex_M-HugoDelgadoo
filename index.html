@@ -2,12 +2,58 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-   ..........
+   <title>Freiduría online</title>
     <link rel="stylesheet" href="ex_html-css-js.css">
 </head>
 <body>
-   ..........
+    <h1>¡¡Pide aqui tu pescadito!!</h1>
+    <img src="pescado_frito.jpg" alt="Bandeja pescado frito">
+    <form action="#">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label>Apellidos:</label>
+        <input type="text" id="apellidos" required>
+        <label >Email</label>
+        <input type="email" id="email" required>
+        <label >Direccion</label>
+        <input type="text" minlength ="18" id="direccion" required>
+        <label >Telefono:</label>
+        <input type="tel" id="telefono"minlength="9" maxlength="9">
+        <label >Hora aproximada entrega:</label>
+        <input type="time" id="hora">
+    
 
+        <label>Tipo de pescado:</label>
+        <label>Calamares</label>
+        <input type="radio" id="Calamares" required>
+        <label>Adobo</label>
+        <input type="radio" id="Adobo" required>
+        <label>Boquerones</label>
+        <input type="radio" id="Boquerones" required>
+
+        <label>Numero de raciones</label>
+        <input type="number" id="raciones" min="1" max="5"  required>
+        <label></label>
+
+        <label >Acompañamientos</label>
+        <label>Patatas Fritas</label>
+        <input type="checkbox" id="patatas">
+        <label>Ensaladilla</label>
+        <input type="checkbox" id="ensaladilla">
+        <label>Botella de Manzanilla</label>
+        <input type="checkbox" id="manzanilla">
+
+        <label>Metodo de pago</label>
+        <label>Efectivo</label>
+        <input type="radio" id="efectivo">
+        <label>Tarjeta</label>
+        <input type="radio" id="tarjeta">
+        <label>PayPal</label>
+        <input type="radio" id="paypal">
+
+        <label>Instrucciones adicionales</label>
+        <input type="text" id="instrucciones">
+    </form>
     <script src="ex_html-css-js.js"></script>
 
 </body>
