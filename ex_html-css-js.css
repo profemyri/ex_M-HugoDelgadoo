@@ -44,5 +44,9 @@ body.oscuro{
    background-color: black;
    color: white;
 }
+body.claro{
+   background-color: white;
+   color: black;
+}
 
 

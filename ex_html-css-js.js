@@ -51,7 +51,6 @@ document.getElementById("modoOscuro").onclick = function(){
 };
 
 document.getElementById("modoClaro").onclick = function(){
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
+    document.body.classList.toggle("claro");
 };
 
